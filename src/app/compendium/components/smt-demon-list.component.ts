@@ -100,7 +100,9 @@ export class SmtDemonListRowComponent {
           [lang]="lang"
           [ngClass]="{
             special: data.fusion === 'special',
-            exception: data.fusion !== 'special' && data.fusion !== 'normal'
+            exception: data.fusion !== 'special' && data.fusion !== 'normal',
+            prereq: data.prereq,
+            party: data.fusion === 'party'
           }"
           [data]="data"
           (currLvl)="lvlChanged.emit({ demon: data.name, currLvl: $event })">

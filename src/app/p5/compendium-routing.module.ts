@@ -8,7 +8,7 @@ import { DemonEntryContainerComponent } from './components/demon-entry.component
 import { FusionSettingsContainerComponent } from './components/fusion-settings.component';
 import { FusionChartContainerComponent } from './components/fusion-chart.component';
 import { RecipeGeneratorContainerComponent } from './components/recipe-generator.component';
-import { SmtDemonListComponent, SmtDemonListRowComponent } from './components/smt-demon-list.component';
+
 import { SmtFissionPreviewComponent } from '../compendium/components/fission-preview-table.component';
 import { P5FissionTableComponent } from './components/p5-fission-table.component';
 import { SmtFusionTableComponent } from '../compendium/components/smt-fusion-table.component';
